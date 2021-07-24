@@ -1,0 +1,27 @@
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.Hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.MainB{
+    border-style: solid;
+    border-width: thin;
+    height: 30em;
+    width: 40em;
+    display: grid;
+}
+
+.IndivCell{
+    border-style: solid;
+    border-width: thin;
+
+}
