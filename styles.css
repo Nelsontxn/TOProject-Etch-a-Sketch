@@ -12,6 +12,30 @@
     align-items: center;
 }
 
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(7, 0, 0);
+    background-color: #f7ee75;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(235, 240, 166);
+  }
+  
+  .button:hover {background-color: #fcdb48}
+  
+  .button:active {
+    background-color: #ffd000;
+    box-shadow: 0 5px #faee47;
+    transform: translateY(4px);
+  }
+
+
 .MainB{
     border-style: solid;
     border-width: thin;
@@ -25,3 +49,4 @@
     border-width: thin;
 
 }
+
